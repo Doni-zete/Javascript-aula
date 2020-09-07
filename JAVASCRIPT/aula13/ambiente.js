@@ -1,4 +1,5 @@
-console.log('vai começar...')
+var nota
+
 for(var c = 1;c <= 5;c++) {
     console.log (c)
 }
