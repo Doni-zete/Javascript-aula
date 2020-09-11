@@ -1,7 +1,7 @@
 function verificar() {
-    var  ini = document.getElementById('')
-    var ano = data.getFullYear()
-    var fano = document.getElementById('txtano')
+    var  ini = document.getElementById('txtini')
+    var fim = data.getFullYear()
+    var pass = document.getElementById('txtfim')
     var res = document.getElementById('res')
     if (fano.value.length == 0 || fano.value ==ano) {
 
@@ -11,7 +11,7 @@ function verificar() {
 
 
 
-        
+
 
         window.alert('Erro')
 
