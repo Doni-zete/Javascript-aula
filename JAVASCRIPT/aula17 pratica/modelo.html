@@ -8,31 +8,22 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body onload="contar()">
+<body onload="tabuada()">
     <header>
-        <h1>Vamos contar</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div id="dados">
-            <p>Inicio:
-                <input type="number" name="txtini" id="txtini">
-            </p>
-
-            <p>Fim:
-                <input type="number" name="txtfim" id="txtfim">
-            </p>
-
-            <p>Passo:
-                <input type="number" name="txtpas" id="txtpas">
-            </p>
-
-            <p>
-                <input type="button" value="Contar" onclick="contar()">
+        <div id="tabu">
+            <p>Numero:
+                <input type="number" name="txtta" id="txtta">
+                <input type="button" value="Gerar tabuada" onclick="tabuada()">
             </p>
         </div>
 
-        <div id="res">
-            Preparando a contagem...
+        <div id="seleciona">
+            <select name="selectab" id="seltab" size="10">
+                <option>Digite no campo a cima</option>
+            </select>
         </div>
 
     </section>
